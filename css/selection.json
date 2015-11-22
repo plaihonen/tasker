@@ -1,0 +1,194 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M0 192v704h1024v-704h-1024zM384 640v-128h256v128h-256zM640 704v128h-256v-128h256zM640 320v128h-256v-128h256zM320 320v128h-256v-128h256zM64 512h256v128h-256v-128zM704 512h256v128h-256v-128zM704 448v-128h256v128h-256zM64 704h256v128h-256v-128zM704 832v-128h256v128h-256z"
+				],
+				"tags": [
+					"table",
+					"wysiwyg"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"order": 1,
+				"id": 331,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "table",
+				"ligatures": ""
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 320h1024v64h-1024zM0 576h1024v64h-1024zM0 832h1024v64h-1024zM0 192h1024v64h-1024zM0 448h1024v64h-1024zM0 704h1024v64h-1024z"
+				],
+				"tags": [
+					"paragraph-justify",
+					"wysiwyg",
+					"justify"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"order": 2,
+				"id": 340,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "paragraph-justify",
+				"ligatures": ""
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 0h256v256h-256zM384 64h640v128h-640zM0 384h256v256h-256zM384 448h640v128h-640zM0 768h256v256h-256zM384 832h640v128h-640z"
+				],
+				"tags": [
+					"list",
+					"bullet",
+					"ul",
+					"todo",
+					"menu"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"order": 3,
+				"id": 181,
+				"prevSize": 32,
+				"code": 58882,
+				"name": "list",
+				"ligatures": ""
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M320 384h128v128h-128zM512 384h128v128h-128zM704 384h128v128h-128zM128 768h128v128h-128zM320 768h128v128h-128zM512 768h128v128h-128zM320 576h128v128h-128zM512 576h128v128h-128zM704 576h128v128h-128zM128 576h128v128h-128zM832 0v64h-128v-64h-448v64h-128v-64h-128v1024h960v-1024h-128zM896 960h-832v-704h832v704z"
+				],
+				"tags": [
+					"calendar",
+					"schedule",
+					"date",
+					"time",
+					"day"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"order": 4,
+				"id": 79,
+				"prevSize": 32,
+				"code": 58883,
+				"name": "calendar",
+				"ligatures": ""
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M864 0h-768c-52.8 0-96 43.2-96 96v832c0 52.8 43.2 96 96 96h768c52.8 0 96-43.2 96-96v-832c0-52.8-43.2-96-96-96zM832 896h-704v-768h704v768zM256 448h448v64h-448zM256 576h448v64h-448zM256 704h448v64h-448zM256 320h448v64h-448z"
+				],
+				"tags": [
+					"file",
+					"list",
+					"paper",
+					"page",
+					"document"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"order": 5,
+				"id": 35,
+				"prevSize": 32,
+				"code": 58884,
+				"name": "file",
+				"ligatures": ""
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M1024 590.444l-512-397.426-512 397.428v-162.038l512-397.426 512 397.428zM896 576v384h-256v-256h-256v256h-256v-384l384-288z"
+				],
+				"tags": [
+					"home",
+					"house",
+					"building"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"order": 6,
+				"id": 1,
+				"prevSize": 32,
+				"code": 58885,
+				"name": "home",
+				"ligatures": ""
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M864 0c88.364 0 160 71.634 160 160 0 36.020-11.91 69.258-32 96l-64 64-224-224 64-64c26.742-20.090 59.978-32 96-32zM64 736l-64 288 288-64 592-592-224-224-592 592zM715.578 363.578l-448 448-55.156-55.156 448-448 55.156 55.156z"
+				],
+				"tags": [
+					"pencil",
+					"write",
+					"edit",
+					"blog",
+					"note"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"order": 7,
+				"id": 6,
+				"prevSize": 32,
+				"code": 58886,
+				"name": "pencil",
+				"ligatures": ""
+			}
+		}
+	],
+	"height": 1024,
+	"metadata": {},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false,
+			"embed": false
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true
+	}
+}

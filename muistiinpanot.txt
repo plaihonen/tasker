@@ -1,0 +1,50 @@
+New Site:
+Lisää valinta "tyyppi" Default "muu"
+- Rivitalo
+- Yksityinen
+- Firma
+- Muu
+
+Select Site:
+- Lisää 3 vakiota ("tyyppi")
+	- Rivitalo
+	- Yksityinen
+	- Firma
+- Lisää "työ valinta"
+	- Auraus
+	- Hiekotus
+	- Lumen Siirto
+	- Muu
+- Kun ylläolevat on valittu, sen jalkeen [Submit]
+- Jos "Muu" valittu, anna tekstiboxi.
+- Talleta submit aika!! (Joka kohteelle erikseen)
+
+Kieleksi Suomi
+
+Ehkä lisätään 
+- Search by address, site name, etc...
+
+Raportointi:
+--> .csv failia
+
+- Kuukausittain tms...
+
+- Sorting by tyyppi, kohteen mukaan, tms....
+
+- Unique link for user, tough to guess, but bookmarkable. (Cookie?)
+
+
+---------------------------------------------------
+
+'rivitalo','yksityinen','firma','muu'
+
+---------------------------------------------------
+Lopputarkistuksia:
+
+Jos siteId puuttuu esim yksittäis taskin postauksesta, tai ei oo mitään checkattuna multisite postauksessa, niin heitä errori
+
+WRONG [siteId] => 
+      [taskType] => muu
+      [taskNote] => dsfjaldskfjasldkjfasldfjasld
+      [formName] => tasker
+      [action] => insert

@@ -1,0 +1,32 @@
+#regform {
+	padding: 5px;
+	display: inline-block;
+	border: solid 1px gray;
+}
+
+#regform legend, 
+#regform input, 
+#regform textarea, 
+#regform select, 
+#regform button {
+  	width : 190px;
+	margin: 2px;
+  	float:left;
+  	-webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+       -moz-box-sizing: border-box; /* For all Gecko based browsers */
+            box-sizing: border-box;
+}
+
+#regform label {
+	clear: both;
+	float:left;
+	width: 190px;
+}
+
+#regform legend {
+	clear: both;
+	width: 100%;
+	padding: 5px;
+	background-color: #BD9982;
+	font-weight: bold;
+}

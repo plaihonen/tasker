@@ -1,0 +1,59 @@
+/*select icons here, http://icomoon.io/app/#/select, then export as font*/
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-table:before {
+	content: "\e600";
+}
+.icon-paragraph-justify:before {
+	content: "\e601";
+}
+.icon-list:before {
+	content: "\e602";
+}
+.icon-calendar:before {
+	content: "\e603";
+}
+.icon-file:before {
+	content: "\e604";
+}
+.icon-home:before {
+	content: "\e605";
+}
+.icon-pencil:before {
+	content: "\e606";
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}

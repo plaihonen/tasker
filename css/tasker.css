@@ -1,0 +1,134 @@
+/*html5 semantics tags */
+article, aside, figure, footer, header, hgroup, menu, nav, section 
+{ display: block; }
+
+/* light css reset */
+* { margin : 0; padding : 0; }
+h2, h3, h4, h5, p, ul, ol  { margin : 0 20px; padding : .5em 0; }
+img { border: 0px;}
+
+
+/* =page level container */
+#pageContainer {
+    margin: 20px auto 20px auto;
+	width: 960px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 7px 10px 1px rgba(10, 10, 10, 0.8);
+    box-shadow: 5px 7px 10px 1px rgba(10, 10, 10, 0.8);
+}
+
+#pageHeader {
+    margin:0px auto 0px auto;
+    width:940px;
+    height:42px;
+    padding:10px;
+    position:relative;
+    background-color: #D9D9D9;
+    -webkit-border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
+    /*border-bottom: solid 1px red;*/
+}
+
+nav {
+    margin:0px auto 0px auto;
+    /*width:960px;*/
+    height:40px;
+    position:relative;
+    background-color: #D9D9D9;
+    /*border-bottom: solid 1px red;*/
+    padding: 0px 5px 10px 10px;
+    padding-left:10px;
+    -webkit-box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contentContainer {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left:10px;
+    min-height: 500px;
+    background-color: #D9D9D9;
+    /*border-bottom: solid 1px red;*/
+}
+
+#pageFooter {
+    margin: 0px auto;
+    padding-bottom: 20px;
+	/*width: 940px;*/
+    padding:10px;
+	position: relative;
+    background-color: #D9D9D9;
+    -webkit-border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#fetchButton {
+    width: 100px;
+    padding: 2px 10px;
+}
+
+#dateStart, #dateEnd {
+    width: 80px;
+    padding: 2px 10px;
+    text-align: center;
+}
+
+/* Clear Floated Elements */
+.clearfix:before, .clearfix:after {
+    content: "\0020"; 
+    display: block; 
+    height: 0; 
+    visibility: hidden;
+}
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/* Pietu's fixes */
+.mylegend {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    margin: 0px 2% 0px 0px;
+}
+
+.right {
+    display: inline-block;
+    float:right;
+    margin-right:10px;
+}
+
+#cbs {
+    width:78%;
+    float:right;"
+    border-radius: 10px;
+}
+
+#cbs label:first-child {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+#cbs label:first-child {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+#taskerLogo {
+    background: url( images/tasker.png ) no-repeat;
+    width:170px;
+    height:170px;
+}
+
+#statsLogo {
+    background: url( images/stats.png ) no-repeat;
+    width:170px;
+    height:170px;
+}
+
+.logout {
+    background: url( images/logout.png ) no-repeat;
+    width:34px;
+    height:40px;
+}
