@@ -67,7 +67,7 @@
 
 
             function post(pData) {
-                pData += "&userId="<?= $_SESSION['userId'] ?>;
+                pData += "&userId=<?= $_SESSION['userId'] ?>";
                 console.log('Posting DATA: '+pData);
                 $.ajax({
                     type: 'post',

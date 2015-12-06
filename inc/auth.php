@@ -29,7 +29,7 @@ $user = new uFlex(false);
 * You may now configure the uFlex object before starting it
 */
 
-$user->db['host'] = "localhost";
+$user->db['host'] = $conn;
 $user->db['user'] = $dbUser;
 $user->db['pass'] = $dbPass;
 $user->db['name'] = $database; //Database name
@@ -147,5 +147,6 @@ function getHost() {
 }
 
 function debugLog($message) {
-	error_log(date('Y-m-d H:i:s')." | ".$message."\n", 3, "/tmp/mobileTasker.log");
+	# error_log(date('Y-m-d H:i:s')." | ".$message."\n", 3, "mobileTasker.log");
+	# echo("<!-- ".date('Y-m-d H:i:s')." | ".$message."<br>\n -->");
 }

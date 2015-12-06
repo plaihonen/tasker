@@ -244,7 +244,7 @@
       <div data-role="collapsible" id="statsLink">
         <h3>Raportit</h3>
         <p>
-            Painamalla nappia, pääset lukemaan raportti taulua. Taulu ei tosin ole vielä optimoitu pieni ruutuisille mobiililaitteille.
+            Painamalla nappia, pääset lukemaan raportti taulua. Taulu ei tosin ole vielä optimoitu pieniruutuisille mobiililaitteille.
         </p>
         <p>
             <button type="button" onclick="location.href='./stats.php';" rel="external">Raportit</button>

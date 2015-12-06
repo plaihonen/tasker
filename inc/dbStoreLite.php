@@ -117,7 +117,8 @@ if (!empty($_POST)) {
 
 
 function debugLog($message) {
-	error_log(date('Y-m-d H:i:s')." | ".$message."\n", 3, "/tmp/mobileTasker.log");
+	# error_log(date('Y-m-d H:i:s')." | ".$message."\n", 3, "mobileTasker.log");
+	# echo("<!-- ".date('Y-m-d H:i:s')." | ".$message."<br>\n -->");
 }
 
 function sanitize($post) {
